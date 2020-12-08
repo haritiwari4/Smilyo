@@ -1,0 +1,36 @@
+.each__country {
+    background-color: #fff;
+    margin: 1rem 1.5rem;
+    height: 35vh;
+    width: 20vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem rgb(156, 154, 154);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.each__country span {
+    color: red;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 900px) {
+    .each__country {
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .each__country {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .each__country {
+        width: 75vw;
+    }
+}

@@ -1,0 +1,11 @@
+.continents {
+    font-size: 4.2rem;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.continents__container > div {
+    margin: 1rem auto;
+    border-radius: 0.2rem;
+}

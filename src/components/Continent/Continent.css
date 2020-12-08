@@ -1,0 +1,18 @@
+.each__continent {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    width: 60%;
+    box-shadow: 0.3rem 0.3rem 1rem rgb(155, 155, 155);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.each__continent:hover {
+    transform: translate(-3px, -3px);
+}
+
+.each__continent span {
+    color: red;
+    font-weight: 600;
+    font-size: 1.4rem;
+}

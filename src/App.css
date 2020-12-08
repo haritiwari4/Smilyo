@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.continents__heading {
+  font-size: 4.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.continents__container {
+  min-height: 80vh;
+  width: 100vw;
+  background-color: #0080ff;
+}
